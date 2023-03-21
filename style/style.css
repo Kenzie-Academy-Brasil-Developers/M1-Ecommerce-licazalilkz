@@ -117,3 +117,43 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
+/* -------------------------------------------------------- */
+.main-cards img{
+  width: 207px;
+  height: 50%;
+  margin-bottom: 20px;
+  background-color: rgb(242, 235, 235);
+}
+
+.main-cards ul {
+  list-style-type: none;
+  overflow-x: auto;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-cards li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: #868383;
+  font-size: 16px;
+  height: 275px;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: #868383 0px 10px 10px -12px;
+  border: 2px solid rgb(242, 235, 235);
+}
+
+.main-cards li:hover{
+  border: 2px solid blueviolet;
+}
+
+header li{
+  cursor: pointer;
+}
